@@ -1,9 +1,11 @@
 
+#custom_carousel{
+  width: 90%;
+}
 #custom_carousel .item {
     color:#000;
     background-color:#eee;
     padding:20px 0;
-    width: 90%;
     p{
       text-align: justify;
     }
@@ -20,7 +22,6 @@
     text-align: center;
     position: relative;
     background:#ddd;
-    width: 90%;
 }
 #custom_carousel .controls li {
     display: table-cell;
@@ -40,10 +41,7 @@
 }
 
 @media (max-width:750px) {
-  #custom_carousel .item {
-    width: 100%;
-  }
-#custom_carousel .controls{
+  #custom_carousel {
     width: 100%;
   }
 }
