@@ -194,3 +194,61 @@ a {
 .topbar p {
   padding-top: 12px;
 }
+
+/* line 1, ../sass/module/_panel.scss */
+.page-content {
+  position: relative;
+  z-index: 0;
+  transition: .5s;
+}
+
+/* line 7, ../sass/module/_panel.scss */
+.toggle {
+  position: fixed;
+  top: 0px;
+  right: 50px;
+  bottom: 0px;
+  z-index: 1;
+  text-decoration: none;
+  font-size: 35px;
+  transition: .5s;
+  color: #fff;
+}
+
+/* line 18, ../sass/module/_panel.scss */
+.sidebar {
+  position: fixed;
+  z-index: 0;
+  width: 240px;
+  transition: .5s;
+  padding: 30px;
+  background: #333;
+  color: #fff;
+  top: 0px;
+  right: -240px;
+  bottom: 0px;
+}
+/* line 29, ../sass/module/_panel.scss */
+.sidebar .content {
+  width: 110px;
+  height: 80px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+/* line 37, ../sass/module/_panel.scss */
+#checkboxtoggler {
+  display: none;
+}
+/* line 40, ../sass/module/_panel.scss */
+#checkboxtoggler:checked + .page-wrap .sidebar {
+  right: 0px;
+}
+/* line 43, ../sass/module/_panel.scss */
+#checkboxtoggler:checked + .page-wrap .toggle {
+  right: 250px;
+}
+/* line 46, ../sass/module/_panel.scss */
+#checkboxtoggler:checked + .page-wrap .page-content {
+  padding-right: 140px;
+}
