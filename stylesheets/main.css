@@ -52,7 +52,68 @@
   background-color: #006900;
 }
 
-<<<<<<< HEAD
+/* line 2, ../sass/module/_headNews.scss */
+#custom_carousel .item {
+  color: #000;
+  background-color: #eee;
+  padding: 20px 0;
+  width: 90%;
+}
+/* line 7, ../sass/module/_headNews.scss */
+#custom_carousel .item p {
+  text-align: justify;
+}
+/* line 10, ../sass/module/_headNews.scss */
+#custom_carousel .item h2 {
+  margin: 0;
+}
+
+/* line 14, ../sass/module/_headNews.scss */
+#custom_carousel .controls {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  background: #ddd;
+  width: 90%;
+}
+
+/* line 25, ../sass/module/_headNews.scss */
+#custom_carousel .controls li {
+  display: table-cell;
+  width: 1%;
+  max-width: 90px;
+}
+
+/* line 30, ../sass/module/_headNews.scss */
+#custom_carousel .controls li.active {
+  background-color: #eee;
+  border-top: 3px solid #f76013;
+}
+
+/* line 34, ../sass/module/_headNews.scss */
+#custom_carousel .controls a small {
+  overflow: hidden;
+  display: block;
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  /* line 43, ../sass/module/_headNews.scss */
+  #custom_carousel .item {
+    width: 100%;
+  }
+
+  /* line 46, ../sass/module/_headNews.scss */
+  #custom_carousel .controls {
+    width: 100%;
+  }
+}
 /* line 1, ../sass/module/_stikymenu.scss */
 .stiky, .stikymenu-1, .stikymenu-2, .stikymenu-3, .stikymenu-4, .stikymenu-5, .stikymenu-6 {
   padding-top: 1px;
@@ -105,45 +166,4 @@
 /* line 50, ../sass/module/_stikymenu.scss */
 .stikymenu-6 {
   top: 60%;
-=======
-/* line 2, ../sass/module/_headNews.scss */
-#custom_carousel .item {
-  color: #000;
-  background-color: #eee;
-  padding: 20px 0;
-}
-
-/* line 8, ../sass/module/_headNews.scss */
-#custom_carousel .controls {
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 0;
-  margin: 0;
-  white-space: nowrap;
-  text-align: center;
-  position: relative;
-  background: #ddd;
-}
-
-/* line 18, ../sass/module/_headNews.scss */
-#custom_carousel .controls li {
-  display: table-cell;
-  width: 1%;
-  max-width: 90px;
-}
-
-/* line 23, ../sass/module/_headNews.scss */
-#custom_carousel .controls li.active {
-  background-color: #eee;
-  border-top: 3px solid orange;
-}
-
-/* line 27, ../sass/module/_headNews.scss */
-#custom_carousel .controls a small {
-  overflow: hidden;
-  display: block;
-  font-size: 10px;
-  margin-top: 5px;
-  font-weight: bold;
->>>>>>> 517cf9b3474c6950ce644003a0c69f3ccd2fff81
 }

@@ -3,6 +3,13 @@
     color:#000;
     background-color:#eee;
     padding:20px 0;
+    width: 90%;
+    p{
+      text-align: justify;
+    }
+    h2{
+      margin: 0;
+    }
 }
 #custom_carousel .controls{
     overflow-x: auto;
@@ -12,12 +19,13 @@
     white-space: nowrap;
     text-align: center;
     position: relative;
-    background:#ddd
+    background:#ddd;
+    width: 90%;
 }
 #custom_carousel .controls li {
     display: table-cell;
     width: 1%;
-    max-width:90px
+    max-width:90px;
 }
 #custom_carousel .controls li.active {
     background-color:#eee;
@@ -28,5 +36,14 @@
     display:block;
     font-size:10px;
     margin-top:5px;
-    font-weight:bold
+    font-weight:bold;
+}
+
+@media (max-width:750px) {
+  #custom_carousel .item {
+    width: 100%;
+  }
+#custom_carousel .controls{
+    width: 100%;
+  }
 }
