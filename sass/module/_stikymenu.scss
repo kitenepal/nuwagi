@@ -1,0 +1,53 @@
+.stiky{
+	padding-top: 1px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	cursor: pointer;
+	position: fixed;
+	left: 0;
+	vertical-align: bottom;
+	width: 130px;
+	z-index: 9999;
+	height: 30px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: -1px 0 5px rgba(28, 59, 86, 0.2);
+	-moz-box-shadow: -1px 0 5px rgba(28, 59, 86, 0.2);
+	-webkit-box-shadow: -1px 0 5px rgba(28, 59, 86, 0.2);
+	background: #1b3149;
+}
+
+
+.stikymenu-1{
+	@extend .stiky;
+	top: 35%;
+}
+
+.stikymenu-2{
+	@extend .stiky;
+	top: 40%;
+}
+
+.stikymenu-3{
+	@extend .stiky;
+	top: 45%;
+}
+
+.stikymenu-4{
+	@extend .stiky;
+	top: 50%;
+}
+
+.stikymenu-5{
+	@extend .stiky;
+	top: 55%;
+}
+
+.stikymenu-6{
+	@extend .stiky;
+	top: 60%;
+}
