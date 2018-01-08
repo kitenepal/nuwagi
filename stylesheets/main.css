@@ -1,3 +1,8 @@
+/* line 1, ../sass/base/_base.scss */
+a {
+  outline: 0;
+}
+
 /* line 1, ../sass/module/_head.scss */
 .top-logo {
   padding-top: 40px;
