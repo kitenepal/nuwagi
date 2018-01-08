@@ -5,33 +5,33 @@
 	border: none;
 	.navbar-brand{
 		color: white;
-		background-color: #005000;
+		background-color: $secondary-color;
 		transition: 0.3s;
 	}
 	.navbar-brand:hover{
 		color: white;
-		background-color: #006900;
+		background-color: $secondary-color;
 	}
 	.navbar-nav{
 		> .active > a{
-			background-color: #005000;
+			background-color: $secondary-color;
 		}
 		> .active > a:hover{
-			background-color: #006900;
+			background-color: $secondary-color;
 		}
 		li > a {
 			transition: 0.3s;
 			color: white;
 		}
 		li > a:hover{
-			background-color: #006900;
+			background-color: $secondary-color;
 		}
 	} 
 	.navbar-toggle{
 		border-color: white;
 	}
 	.navbar-toggle:hover, .navbar-toggle:focus{
-		background-color: #006900;
+		background-color: $secondary-color;
 	}
 }
 
