@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* line 1, ../sass/base/_base.scss */
 a {
   outline: 0;
@@ -219,45 +218,84 @@ a {
   text-decoration: none;
   font-size: 35px;
   transition: .5s;
-  color: #fff;
+  color: #f76013;
 }
 
 /* line 18, ../sass/module/_panel.scss */
 .sidebar {
   position: fixed;
   z-index: 0;
+  overflow-y: none;
+  border-left: 1px solid #ddd;
   width: 240px;
+  height: 100vh;
   transition: .5s;
-  padding: 30px;
-  background: #333;
+  padding: 10px;
+  background: #f6f6f6;
   color: #fff;
   top: 0px;
   right: -240px;
   bottom: 0px;
 }
-/* line 29, ../sass/module/_panel.scss */
+/* line 32, ../sass/module/_panel.scss */
+.sidebar:hover {
+  overflow-y: scroll;
+}
+/* line 35, ../sass/module/_panel.scss */
 .sidebar .content {
-  width: 110px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
   height: 80px;
   margin-top: 10px;
   background-color: #fff;
+  margin-right: 10px;
+}
+/* line 43, ../sass/module/_panel.scss */
+.sidebar .sidebar-title {
+  padding-top: 0.65em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+  line-height: 1.3;
+}
+/* line 49, ../sass/module/_panel.scss */
+.sidebar .sidebar-title a {
+  color: #005395;
 }
 
-/* line 37, ../sass/module/_panel.scss */
+/* line 54, ../sass/module/_panel.scss */
+.sidebar:hover .content {
+  margin-right: 0px;
+}
+
+/* line 57, ../sass/module/_panel.scss */
 #checkboxtoggler {
   display: none;
 }
-/* line 40, ../sass/module/_panel.scss */
+/* line 60, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .sidebar {
   right: 0px;
 }
-/* line 43, ../sass/module/_panel.scss */
+/* line 63, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .toggle {
   right: 250px;
 }
-/* line 46, ../sass/module/_panel.scss */
+/* line 66, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .page-content {
   padding-right: 140px;
+}
+
+/* line 74, ../sass/module/_panel.scss */
+#my-style::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+/* line 79, ../sass/module/_panel.scss */
+#my-style::-webkit-scrollbar-thumb {
+  background-color: #F90;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  border-radius: 10px;
 }
 
 /* line 1, ../sass/module/_news.scss */
