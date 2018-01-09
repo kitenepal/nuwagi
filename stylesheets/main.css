@@ -272,30 +272,40 @@ hr.style1 {
 .box img {
   width: 100%;
   height: 100%;
+  border: 2px solid lightgray;
 }
-/* line 14, ../sass/module/_news.scss */
+/* line 15, ../sass/module/_news.scss */
 .box--wrap {
   margin-top: 10px;
 }
-/* line 17, ../sass/module/_news.scss */
+/* line 18, ../sass/module/_news.scss */
 .box--news {
   padding-left: 10px;
 }
-/* line 18, ../sass/module/_news.scss */
+/* line 19, ../sass/module/_news.scss */
 .box--news h3 {
   margin: 0px;
+  transition: 0.3s;
 }
-/* line 21, ../sass/module/_news.scss */
+/* line 23, ../sass/module/_news.scss */
 .box--news p {
   font-size: 16px;
 }
-/* line 26, ../sass/module/_news.scss */
+/* line 28, ../sass/module/_news.scss */
 .box--ads {
   padding-right: 30px;
 }
-/* line 29, ../sass/module/_news.scss */
+/* line 31, ../sass/module/_news.scss */
 .box--bannerAdvertise {
   margin-top: 30px;
+}
+/* line 34, ../sass/module/_news.scss */
+.box a {
+  text-decoration: none;
+}
+/* line 37, ../sass/module/_news.scss */
+.box a h3:hover {
+  color: #0084ea;
 }
 
 /* line 1, ../sass/module/_contact.scss */
