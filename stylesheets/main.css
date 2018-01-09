@@ -301,22 +301,58 @@ hr.style1 {
 /* line 1, ../sass/module/_contact.scss */
 .contact {
   margin-top: 20px;
-  background-color: #004275;
+  background-color: #002e53;
   color: white;
   padding: 30px 0px;
+  font-size: 16px;
 }
-/* line 6, ../sass/module/_contact.scss */
+/* line 7, ../sass/module/_contact.scss */
 .contact h4 {
   margin: 5px 0px;
   color: #f76013;
   font-weight: bold;
 }
-/* line 11, ../sass/module/_contact.scss */
-.contact hr {
-  margin: 5px 0px;
-  width: 90%;
-}
-/* line 15, ../sass/module/_contact.scss */
+/* line 12, ../sass/module/_contact.scss */
 .contact p {
   margin: 0px;
+}
+
+/* line 18, ../sass/module/_contact.scss */
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  color: white;
+  transition: 0.3s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+/* line 31, ../sass/module/_contact.scss */
+#social-fb:hover {
+  color: #3B5998;
+}
+
+/* line 34, ../sass/module/_contact.scss */
+#social-tw:hover {
+  color: #4099FF;
+}
+
+/* line 37, ../sass/module/_contact.scss */
+#social-gp:hover {
+  color: #d34836;
+}
+
+/* line 40, ../sass/module/_contact.scss */
+#social-em:hover {
+  color: #f39c12;
+}
+
+/* line 1, ../sass/module/_copyright.scss */
+.copyright {
+  background-color: #005395;
+  color: white;
+  padding-top: 10px;
 }
