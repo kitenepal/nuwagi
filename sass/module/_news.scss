@@ -1,0 +1,32 @@
+hr.style1{
+	border-top: 5px solid $secondary-color;
+	width: 90%;
+  float: left;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.box{
+	img{
+		width: 100%;
+		height: 100%;
+	}
+	&--wrap{
+		margin-top: 10px;
+	}
+	&--news{
+		h3{
+			margin: 0px;
+		}
+		p{
+			font-size: 16px;
+		}
+		padding-left: 35px;
+	}
+	&--ads{
+		padding-right: 50px;
+	}
+	&--bannerAdvertise{
+		margin-top: 30px;
+	}
+}
