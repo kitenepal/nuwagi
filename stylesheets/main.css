@@ -1,13 +1,18 @@
-<<<<<<< HEAD
 /* line 1, ../sass/base/_base.scss */
 a {
   outline: 0;
+  text-decoration: none !important;
 }
 
-/* line 5, ../sass/base/_base.scss */
+/* line 7, ../sass/base/_base.scss */
 .h-txt {
   color: #005395;
   font-weight: bold;
+}
+
+/* line 12, ../sass/base/_base.scss */
+.a-txt {
+  color: #f76013;
 }
 
 /* line 1, ../sass/module/_head.scss */
@@ -413,4 +418,3 @@ hr.style1 {
   color: white;
   padding-top: 10px;
 }
-=======
