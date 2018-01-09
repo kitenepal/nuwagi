@@ -1,9 +1,10 @@
 /* line 1, ../sass/base/_base.scss */
 a {
   outline: 0;
+  text-decoration: none !important;
 }
 
-/* line 5, ../sass/base/_base.scss */
+/* line 6, ../sass/base/_base.scss */
 .h-txt {
   color: #005395;
   font-weight: bold;
