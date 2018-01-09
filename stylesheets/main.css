@@ -1,6 +1,7 @@
 /* line 1, ../sass/base/_base.scss */
 a {
   outline: 0;
+  text-decoration: none !important;
 }
 
 /* line 1, ../sass/module/_head.scss */
