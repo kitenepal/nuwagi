@@ -212,11 +212,11 @@ a {
 /* line 7, ../sass/module/_panel.scss */
 .toggle {
   position: fixed;
-  top: 200px;
+  top: 300px;
   right: -20px;
   bottom: 0px;
   z-index: 1;
-  height: max-content;
+  height: 40px;
   text-decoration: none;
   font-size: 1.3em;
   padding: 5px 15px;
