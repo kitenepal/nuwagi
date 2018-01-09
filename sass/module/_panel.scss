@@ -13,27 +13,47 @@
 	text-decoration: none;
 	font-size: 35px;
 	transition:.5s;
-	color: #fff;
+	color: #f76013;
 }
 .sidebar{
 	position: fixed;
 	z-index: 0;
+  overflow-y: none;
+  border-left: 1px solid #ddd;
 	width: 240px;
+	height: 100vh;
 	transition:.5s;
-	padding: 30px;
-	background: #333;
+	padding: 10px;
+	background: #f6f6f6;
 	color: #fff;
 	top: 0px;
 	right: -240px;
 	bottom: 0px;
+	&:hover{
+		overflow-y: scroll;
+	}
 	.content{
-		width: 110px;
+		border: 1px solid #e9e9e9;
+		border-radius: 4px;
 		height: 80px;
 		margin-top: 10px;
 		background-color: #fff;
+		margin-right: 10px;
+	}
+	.sidebar-title{
+		padding-top: 0.65em;
+		font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    line-height: 1.3;
+    a{
+    	color: #005395;
+    }
 	}
 }
-
+.sidebar:hover .content{
+		margin-right: 0px;
+}
 #checkboxtoggler{
 	display: none;
 	&:checked + .page-wrap{
@@ -47,4 +67,23 @@
 			padding-right: 140px;
 		}
 	}
+}
+
+//for side ko scroll bar
+
+#my-style::-webkit-scrollbar{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#my-style::-webkit-scrollbar-thumb {
+	background-color: #F90;
+	background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent);
+	 border-radius: 10px;
 }
