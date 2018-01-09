@@ -297,3 +297,26 @@ hr.style1 {
 .box--bannerAdvertise {
   margin-top: 30px;
 }
+
+/* line 1, ../sass/module/_contact.scss */
+.contact {
+  margin-top: 20px;
+  background-color: #004275;
+  color: white;
+  padding: 30px 0px;
+}
+/* line 6, ../sass/module/_contact.scss */
+.contact h4 {
+  margin: 5px 0px;
+  color: #f76013;
+  font-weight: bold;
+}
+/* line 11, ../sass/module/_contact.scss */
+.contact hr {
+  margin: 5px 0px;
+  width: 90%;
+}
+/* line 15, ../sass/module/_contact.scss */
+.contact p {
+  margin: 0px;
+}
