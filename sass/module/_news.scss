@@ -38,3 +38,13 @@ hr.style1{
 		color: #0084ea;
 	}
 }
+
+@media (max-width: 750px){
+	.box{
+		&--news{
+			h3,p{
+				margin: 10px;
+			}
+		}
+	}
+}

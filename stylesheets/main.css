@@ -14,6 +14,16 @@ a {
   color: #f76013;
 }
 
+/* line 16, ../sass/base/_base.scss */
+.pageNavigation {
+  padding: 10px;
+  background: #e5e5e5;
+}
+/* line 19, ../sass/base/_base.scss */
+.pageNavigation p {
+  margin: 0;
+}
+
 /* line 1, ../sass/module/_head.scss */
 .top-logo {
   padding-top: 40px;
@@ -352,6 +362,12 @@ hr.style1 {
   color: #0084ea;
 }
 
+@media (max-width: 750px) {
+  /* line 45, ../sass/module/_news.scss */
+  .box--news h3, .box--news p {
+    margin: 10px;
+  }
+}
 /* line 1, ../sass/module/_contact.scss */
 .contact {
   margin-top: 20px;
