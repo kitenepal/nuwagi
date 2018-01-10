@@ -16,7 +16,14 @@ a{
 .pageNavigation{
 	padding: 10px;
 	background: #e5e5e5;
+	width: 90%;
 	p{
 		margin: 0;
+	}
+}
+
+@media (max-width: 750px){
+	.pageNavigation{
+		width: 100%;
 	}
 }
