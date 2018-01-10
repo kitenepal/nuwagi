@@ -262,13 +262,14 @@ a {
   transition: .5s;
   padding: 10px;
   background: #f6f6f6;
+  background-image: url("../img/background.png");
   color: #000;
   top: 0px;
   right: -240px;
   bottom: 0px;
   overflow-y: scroll;
 }
-/* line 40, ../sass/module/_panel.scss */
+/* line 41, ../sass/module/_panel.scss */
 .sidebar .content {
   border: 1px solid #e9e9e9;
   border-radius: 4px;
@@ -276,7 +277,7 @@ a {
   background-color: #fff;
   padding: 10px;
 }
-/* line 47, ../sass/module/_panel.scss */
+/* line 48, ../sass/module/_panel.scss */
 .sidebar .sidebar-title {
   padding-top: 0.65em;
   font-weight: bold;
@@ -284,24 +285,29 @@ a {
   font-size: 1.1em;
   line-height: 1.3;
 }
-/* line 53, ../sass/module/_panel.scss */
+
+
+/* line 54, ../sass/module/_panel.scss */
 .sidebar .sidebar-title a {
   color: #005395;
 }
 
-/* line 58, ../sass/module/_panel.scss */
+
+/* line 59, ../sass/module/_panel.scss */
 #checkboxtoggler {
   display: none;
 }
-/* line 61, ../sass/module/_panel.scss */
+/* line 62, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .sidebar {
   right: 0px;
 }
-/* line 64, ../sass/module/_panel.scss */
+/* line 65, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .toggle {
   right: 220px;
 }
-/* line 67, ../sass/module/_panel.scss */
+
+/* line 68, ../sass/module/_panel.scss */
+
 #checkboxtoggler:checked + .page-wrap .page-content {
   padding-right: 140px;
 }
