@@ -35,12 +35,24 @@ a {
 }
 /* line 1, ../sass/module/_head.scss */
 .top-logo {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 /* line 4, ../sass/module/_head.scss */
 .top-advertise {
   padding: 15px;
+}
+
+/* line 8, ../sass/module/_head.scss */
+.social-like > iframe {
+  margin: 0px auto;
+  display: block;
+  margin-top: 10px;
+}
+
+/* line 14, ../sass/module/_head.scss */
+.social-share {
+  margin-left: 5px;
 }
 
 /* line 1, ../sass/module/_navbar.scss */
