@@ -242,19 +242,20 @@ a {
   position: relative;
   z-index: 0;
   transition: .5s;
+  padding-right: 140px;
 }
 
-/* line 7, ../sass/module/_panel.scss */
+/* line 8, ../sass/module/_panel.scss */
 .toggle {
   position: fixed;
   top: 300px;
-  right: -20px;
+  right: 224px;
   bottom: 0px;
   z-index: 1;
   height: 40px;
   text-decoration: none;
   font-size: 1.3em;
-  padding: 5px 15px;
+  padding: 10px 15px;
   margin-bottom: 0px;
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
@@ -262,13 +263,12 @@ a {
   color: #fff;
   background-color: #f76013;
   transform: rotate(-90deg);
-  border: 1px solid #fff;
 }
 
 /* line 26, ../sass/module/_panel.scss */
 .sidebar {
   position: fixed;
-  z-index: 0;
+  z-index: 5;
   border-left: 1px solid #ddd;
   width: 240px;
   height: 100vh;
@@ -278,7 +278,7 @@ a {
   background-image: url("../img/background.png");
   color: #000;
   top: 0px;
-  right: -240px;
+  right: 0px;
   bottom: 0px;
   overflow-y: scroll;
 }
@@ -309,15 +309,15 @@ a {
 }
 /* line 62, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .sidebar {
-  right: 0px;
+  right: -240px;
 }
 /* line 65, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .toggle {
-  right: 220px;
+  right: -15px;
 }
 /* line 68, ../sass/module/_panel.scss */
 #checkboxtoggler:checked + .page-wrap .page-content {
-  padding-right: 140px;
+  padding-right: 0px;
 }
 
 /* line 76, ../sass/module/_panel.scss */
@@ -333,6 +333,39 @@ a {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  /* line 94, ../sass/module/_panel.scss */
+  .toggle {
+    right: -15px;
+  }
+
+  /* line 97, ../sass/module/_panel.scss */
+  .sidebar {
+    right: -240px;
+  }
+
+  /* line 100, ../sass/module/_panel.scss */
+  .page-content {
+    padding-right: 0px;
+  }
+
+  /* line 103, ../sass/module/_panel.scss */
+  #checkboxtoggler {
+    display: none;
+  }
+  /* line 106, ../sass/module/_panel.scss */
+  #checkboxtoggler:checked + .page-wrap .sidebar {
+    right: 0px;
+  }
+  /* line 109, ../sass/module/_panel.scss */
+  #checkboxtoggler:checked + .page-wrap .toggle {
+    right: 224px;
+  }
+  /* line 112, ../sass/module/_panel.scss */
+  #checkboxtoggler:checked + .page-wrap .page-content {
+    padding-right: 140px;
+  }
+}
 /* line 1, ../sass/module/_news.scss */
 hr.style1 {
   border-top: 5px solid #f76013;
