@@ -1,2 +1,0 @@
-# nuwagi
-Education magazine website
