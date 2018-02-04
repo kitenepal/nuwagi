@@ -73,6 +73,11 @@ a {
   padding: 20px;
 }
 
+/* line 23, ../sass/module/_mainheading.scss */
+.headline--slider img {
+  margin-bottom: 15px;
+}
+
 /* line 1, ../sass/module/_head.scss */
 .top-logo {
   padding-top: 10px;
@@ -150,10 +155,6 @@ a {
   background-color: #eee;
   padding: 20px 0;
 }
-/* line 9, ../sass/module/_headNews.scss */
-#custom_carousel .item p {
-  text-align: justify;
-}
 /* line 12, ../sass/module/_headNews.scss */
 #custom_carousel .item h2 {
   margin: 0;
@@ -193,8 +194,13 @@ a {
   font-weight: bold;
 }
 
+/* line 45, ../sass/module/_headNews.scss */
+.headline--slider img {
+  margin-bottom: 15px;
+}
+
 @media (max-width: 750px) {
-  /* line 44, ../sass/module/_headNews.scss */
+  /* line 52, ../sass/module/_headNews.scss */
   #custom_carousel {
     width: 100%;
   }
