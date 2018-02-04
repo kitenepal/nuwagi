@@ -1,38 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Biryani:200,300,400,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i");
 /* line 1, ../sass/base/_base.scss */
+body {
+  font-family: "Biryani", sans-serif;
+}
+
+/* line 5, ../sass/base/_base.scss */
+p {
+  font-size: 18px;
+}
+
+/* line 9, ../sass/base/_base.scss */
 a {
   outline: 0;
   text-decoration: none !important;
 }
 
-/* line 7, ../sass/base/_base.scss */
+/* line 14, ../sass/base/_base.scss */
 .h-txt {
   color: #005395;
   font-weight: bold;
 }
 
-/* line 12, ../sass/base/_base.scss */
+/* line 19, ../sass/base/_base.scss */
 .a-txt {
   color: #f76013;
 }
 
-/* line 16, ../sass/base/_base.scss */
+/* line 23, ../sass/base/_base.scss */
 .pageNavigation {
   padding: 10px;
   background: #e5e5e5;
   width: 90%;
   margin-bottom: 20px;
 }
-/* line 21, ../sass/base/_base.scss */
+/* line 28, ../sass/base/_base.scss */
 .pageNavigation p {
   margin: 0;
 }
 
 @media (max-width: 750px) {
-  /* line 27, ../sass/base/_base.scss */
+  /* line 34, ../sass/base/_base.scss */
   .pageNavigation {
     width: 100%;
   }
 }
+/* line 39, ../sass/base/_base.scss */
+.english-font {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* line 2, ../sass/module/_mainheading.scss */
+.mainHeading a {
+  color: #005395;
+  transition: 0.3s;
+}
+/* line 6, ../sass/module/_mainheading.scss */
+.mainHeading a:hover {
+  color: #1472ba;
+}
+/* line 9, ../sass/module/_mainheading.scss */
+.mainHeading img {
+  padding: 10px 0px;
+  width: 95%;
+}
+/* line 13, ../sass/module/_mainheading.scss */
+.mainHeading .img-thumbnail {
+  border-radius: 0px;
+}
+/* line 16, ../sass/module/_mainheading.scss */
+.mainHeading p {
+  padding: 20px;
+}
+
 /* line 1, ../sass/module/_head.scss */
 .top-logo {
   padding-top: 10px;
@@ -376,27 +416,27 @@ hr.style1 {
 }
 
 /* line 10, ../sass/module/_news.scss */
+.box p {
+  font-size: 18px !important;
+}
+/* line 13, ../sass/module/_news.scss */
 .box img {
   width: 100%;
   height: 100%;
   border: 2px solid lightgray;
 }
-/* line 15, ../sass/module/_news.scss */
+/* line 18, ../sass/module/_news.scss */
 .box--wrap {
   margin-top: 10px;
 }
-/* line 18, ../sass/module/_news.scss */
+/* line 21, ../sass/module/_news.scss */
 .box--news {
   padding-left: 10px;
 }
-/* line 19, ../sass/module/_news.scss */
+/* line 22, ../sass/module/_news.scss */
 .box--news h3 {
   margin: 0px;
   transition: 0.3s;
-}
-/* line 23, ../sass/module/_news.scss */
-.box--news p {
-  font-size: 16px;
 }
 /* line 28, ../sass/module/_news.scss */
 .box--ads {
@@ -415,8 +455,13 @@ hr.style1 {
   color: #0084ea;
 }
 
+/* line 43, ../sass/module/_news.scss */
+.news--detail p {
+  font-size: 18px;
+}
+
 @media (max-width: 900px) {
-  /* line 45, ../sass/module/_news.scss */
+  /* line 51, ../sass/module/_news.scss */
   .box--news h3, .box--news p {
     margin: 10px;
   }
@@ -430,17 +475,21 @@ hr.style1 {
   font-size: 16px;
 }
 /* line 7, ../sass/module/_contact.scss */
+.contact img {
+  margin-bottom: 10px;
+}
+/* line 10, ../sass/module/_contact.scss */
 .contact h4 {
   margin: 5px 0px;
   color: #f76013;
   font-weight: bold;
 }
-/* line 12, ../sass/module/_contact.scss */
+/* line 15, ../sass/module/_contact.scss */
 .contact p {
   margin: 0px;
 }
 
-/* line 18, ../sass/module/_contact.scss */
+/* line 21, ../sass/module/_contact.scss */
 .social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
@@ -453,22 +502,22 @@ hr.style1 {
 /*
     Multicoloured Hover Variations
 */
-/* line 31, ../sass/module/_contact.scss */
+/* line 34, ../sass/module/_contact.scss */
 #social-fb:hover {
   color: #3B5998;
 }
 
-/* line 34, ../sass/module/_contact.scss */
+/* line 37, ../sass/module/_contact.scss */
 #social-tw:hover {
   color: #4099FF;
 }
 
-/* line 37, ../sass/module/_contact.scss */
+/* line 40, ../sass/module/_contact.scss */
 #social-gp:hover {
   color: #d34836;
 }
 
-/* line 40, ../sass/module/_contact.scss */
+/* line 43, ../sass/module/_contact.scss */
 #social-em:hover {
   color: #f39c12;
 }
@@ -478,4 +527,11 @@ hr.style1 {
   background-color: #005395;
   color: white;
   padding-top: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* line 2, ../sass/module/_samachar.scss */
+.news--detail .img-thumbnail {
+  margin-bottom: 10px;
+  border-radius: 0px;
 }

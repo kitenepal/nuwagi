@@ -1,0 +1,19 @@
+.mainHeading{
+	a{
+		color: $primary-color;
+		transition: 0.3s;
+	}
+	a:hover{
+		color: $light-pri-color;
+	}
+	img{
+		padding: 10px 0px;
+		width: 95%;
+	}
+	.img-thumbnail{
+		border-radius: 0px;
+	}
+	p{
+		padding: 20px;
+	}
+}
