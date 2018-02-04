@@ -1,0 +1,407 @@
+/* line 1, ../sass/base/_base.scss */
+a {
+  outline: 0;
+}
+
+/* line 5, ../sass/base/_base.scss */
+.h-txt {
+  color: #005395;
+  font-weight: bold;
+}
+
+/* line 1, ../sass/module/_head.scss */
+.top-logo {
+  padding-top: 40px;
+}
+
+/* line 4, ../sass/module/_head.scss */
+.top-advertise {
+  padding: 15px;
+}
+
+/* line 1, ../sass/module/_navbar.scss */
+.navbar-inverse {
+  background-color: #005395;
+  border-radius: 0px;
+  font-size: 18px;
+  border: none;
+}
+/* line 6, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-brand {
+  color: white;
+  background-color: #f76013;
+  transition: 0.3s;
+}
+/* line 11, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-brand:hover {
+  color: white;
+  background-color: #f76013;
+}
+/* line 16, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #f76013;
+}
+/* line 19, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #f76013;
+}
+/* line 22, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-nav li > a {
+  transition: 0.3s;
+  color: white;
+}
+/* line 26, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-nav li > a:hover {
+  background-color: #f76013;
+}
+/* line 30, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+}
+/* line 33, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #f76013;
+}
+
+/* line 2, ../sass/module/_headNews.scss */
+#custom_carousel {
+  width: 90%;
+}
+
+/* line 5, ../sass/module/_headNews.scss */
+#custom_carousel .item {
+  color: #000;
+  background-color: #eee;
+  padding: 20px 0;
+}
+/* line 9, ../sass/module/_headNews.scss */
+#custom_carousel .item p {
+  text-align: justify;
+}
+/* line 12, ../sass/module/_headNews.scss */
+#custom_carousel .item h2 {
+  margin: 0;
+}
+
+/* line 16, ../sass/module/_headNews.scss */
+#custom_carousel .controls {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  background: #ddd;
+}
+
+/* line 26, ../sass/module/_headNews.scss */
+#custom_carousel .controls li {
+  display: table-cell;
+  width: 1%;
+  max-width: 90px;
+}
+
+/* line 31, ../sass/module/_headNews.scss */
+#custom_carousel .controls li.active {
+  background-color: #eee;
+  border-top: 3px solid #f76013;
+}
+
+/* line 35, ../sass/module/_headNews.scss */
+#custom_carousel .controls a small {
+  overflow: hidden;
+  display: block;
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  /* line 44, ../sass/module/_headNews.scss */
+  #custom_carousel {
+    width: 100%;
+  }
+}
+/* line 1, ../sass/module/_stikymenu.scss */
+.stiky, .stikymenu-1, .stikymenu-2, .stikymenu-3, .stikymenu-4, .stikymenu-5, .stikymenu-6 {
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  left: 0;
+  vertical-align: bottom;
+  width: 130px;
+  z-index: 9999;
+  height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: -1px 0 5px rgba(28, 59, 86, 0.2);
+  -moz-box-shadow: -1px 0 5px rgba(28, 59, 86, 0.2);
+  -webkit-box-shadow: -1px 0 5px rgba(28, 59, 86, 0.2);
+  background: #1b3149;
+}
+
+/* line 25, ../sass/module/_stikymenu.scss */
+.stikymenu-1 {
+  top: 35%;
+}
+
+/* line 30, ../sass/module/_stikymenu.scss */
+.stikymenu-2 {
+  top: 40%;
+}
+
+/* line 35, ../sass/module/_stikymenu.scss */
+.stikymenu-3 {
+  top: 45%;
+}
+
+/* line 40, ../sass/module/_stikymenu.scss */
+.stikymenu-4 {
+  top: 50%;
+}
+
+/* line 45, ../sass/module/_stikymenu.scss */
+.stikymenu-5 {
+  top: 55%;
+}
+
+/* line 50, ../sass/module/_stikymenu.scss */
+.stikymenu-6 {
+  top: 60%;
+}
+
+/* line 1, ../sass/module/_topbar.scss */
+.topbar {
+  background-color: #005395;
+  color: white;
+  font-size: 16px;
+}
+/* line 5, ../sass/module/_topbar.scss */
+.topbar .btn {
+  background-color: #f76013;
+  color: white;
+  transition: 0.3s;
+  outline: 0;
+}
+/* line 11, ../sass/module/_topbar.scss */
+.topbar .btn:hover {
+  background-color: #f78247;
+  color: white;
+}
+
+/* line 17, ../sass/module/_topbar.scss */
+.topbar p {
+  padding-top: 12px;
+}
+
+/* line 1, ../sass/module/_panel.scss */
+.page-content {
+  position: relative;
+  z-index: 0;
+  transition: .5s;
+}
+
+/* line 7, ../sass/module/_panel.scss */
+.toggle {
+  position: fixed;
+  top: 0px;
+  right: 50px;
+  bottom: 0px;
+  z-index: 1;
+  text-decoration: none;
+  font-size: 35px;
+  transition: .5s;
+  color: #f76013;
+}
+
+/* line 18, ../sass/module/_panel.scss */
+.sidebar {
+  position: fixed;
+  z-index: 0;
+  overflow-y: none;
+  border-left: 1px solid #ddd;
+  width: 240px;
+  height: 100vh;
+  transition: .5s;
+  padding: 10px;
+  background: #f6f6f6;
+  color: #fff;
+  top: 0px;
+  right: -240px;
+  bottom: 0px;
+}
+/* line 32, ../sass/module/_panel.scss */
+.sidebar:hover {
+  overflow-y: scroll;
+}
+/* line 35, ../sass/module/_panel.scss */
+.sidebar .content {
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  height: 80px;
+  margin-top: 10px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+/* line 43, ../sass/module/_panel.scss */
+.sidebar .sidebar-title {
+  padding-top: 0.65em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+  line-height: 1.3;
+}
+/* line 49, ../sass/module/_panel.scss */
+.sidebar .sidebar-title a {
+  color: #005395;
+}
+
+/* line 54, ../sass/module/_panel.scss */
+.sidebar:hover .content {
+  margin-right: 0px;
+}
+
+/* line 57, ../sass/module/_panel.scss */
+#checkboxtoggler {
+  display: none;
+}
+/* line 60, ../sass/module/_panel.scss */
+#checkboxtoggler:checked + .page-wrap .sidebar {
+  right: 0px;
+}
+/* line 63, ../sass/module/_panel.scss */
+#checkboxtoggler:checked + .page-wrap .toggle {
+  right: 250px;
+}
+/* line 66, ../sass/module/_panel.scss */
+#checkboxtoggler:checked + .page-wrap .page-content {
+  padding-right: 140px;
+}
+
+/* line 74, ../sass/module/_panel.scss */
+#my-style::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+/* line 79, ../sass/module/_panel.scss */
+#my-style::-webkit-scrollbar-thumb {
+  background-color: #F90;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  border-radius: 10px;
+}
+
+/* line 1, ../sass/module/_news.scss */
+hr.style1 {
+  border-top: 5px solid #f76013;
+  width: 90%;
+  float: left;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+/* line 10, ../sass/module/_news.scss */
+.box img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid lightgray;
+}
+/* line 15, ../sass/module/_news.scss */
+.box--wrap {
+  margin-top: 10px;
+}
+/* line 18, ../sass/module/_news.scss */
+.box--news {
+  padding-left: 10px;
+}
+/* line 19, ../sass/module/_news.scss */
+.box--news h3 {
+  margin: 0px;
+  transition: 0.3s;
+}
+/* line 23, ../sass/module/_news.scss */
+.box--news p {
+  font-size: 16px;
+}
+/* line 28, ../sass/module/_news.scss */
+.box--ads {
+  padding-right: 30px;
+}
+/* line 31, ../sass/module/_news.scss */
+.box--bannerAdvertise {
+  margin-top: 30px;
+}
+/* line 34, ../sass/module/_news.scss */
+.box a {
+  text-decoration: none;
+}
+/* line 37, ../sass/module/_news.scss */
+.box a h3:hover {
+  color: #0084ea;
+}
+
+/* line 1, ../sass/module/_contact.scss */
+.contact {
+  margin-top: 20px;
+  background-color: #002e53;
+  color: white;
+  padding: 30px 0px;
+  font-size: 16px;
+}
+/* line 7, ../sass/module/_contact.scss */
+.contact h4 {
+  margin: 5px 0px;
+  color: #f76013;
+  font-weight: bold;
+}
+/* line 12, ../sass/module/_contact.scss */
+.contact p {
+  margin: 0px;
+}
+
+/* line 18, ../sass/module/_contact.scss */
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  color: white;
+  transition: 0.3s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+/* line 31, ../sass/module/_contact.scss */
+#social-fb:hover {
+  color: #3B5998;
+}
+
+/* line 34, ../sass/module/_contact.scss */
+#social-tw:hover {
+  color: #4099FF;
+}
+
+/* line 37, ../sass/module/_contact.scss */
+#social-gp:hover {
+  color: #d34836;
+}
+
+/* line 40, ../sass/module/_contact.scss */
+#social-em:hover {
+  color: #f39c12;
+}
+
+/* line 1, ../sass/module/_copyright.scss */
+.copyright {
+  background-color: #005395;
+  color: white;
+  padding-top: 10px;
+}

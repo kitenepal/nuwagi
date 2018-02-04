@@ -1,0 +1,39 @@
+.navbar-inverse{
+	background-color: $primary-color;
+	border-radius: 0px;
+	font-size: 18px;
+	border: none;
+	.navbar-brand{
+		color: white;
+		background-color: $secondary-color;
+		transition: 0.3s;
+	}
+	.navbar-brand:hover{
+		color: white;
+		background-color: $secondary-color;
+	}
+	.navbar-nav{
+		> .active > a{
+			background-color: $secondary-color;
+		}
+		> .active > a:hover{
+			background-color: $secondary-color;
+		}
+		li > a {
+			transition: 0.3s;
+			color: white;
+		}
+		li > a:hover{
+			background-color: $secondary-color;
+		}
+	} 
+	.navbar-toggle{
+		border-color: white;
+	}
+	.navbar-toggle:hover, .navbar-toggle:focus{
+		background-color: $secondary-color;
+	}
+}
+
+
+
