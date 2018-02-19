@@ -199,10 +199,19 @@ a {
   margin-bottom: 15px;
 }
 
+/* line 52, ../sass/module/_headNews.scss */
+.media-body p {
+  padding-top: 15px;
+}
+
 @media (max-width: 750px) {
-  /* line 52, ../sass/module/_headNews.scss */
+  /* line 58, ../sass/module/_headNews.scss */
   #custom_carousel {
     width: 100%;
+  }
+  /* line 60, ../sass/module/_headNews.scss */
+  #custom_carousel p {
+    display: none;
   }
 }
 /* line 1, ../sass/module/_stikymenu.scss */
