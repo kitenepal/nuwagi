@@ -87,15 +87,25 @@ a {
 .top-advertise {
   padding: 15px;
 }
+/* line 6, ../sass/module/_head.scss */
+.top-advertise img {
+  width: 80%;
+}
 
-/* line 8, ../sass/module/_head.scss */
+@media screen and (max-width: 768px) {
+  /* line 13, ../sass/module/_head.scss */
+  .top-advertise img {
+    width: 100%;
+  }
+}
+/* line 19, ../sass/module/_head.scss */
 .social-like > iframe {
   margin: 0px auto;
   display: block;
   margin-top: 10px;
 }
 
-/* line 14, ../sass/module/_head.scss */
+/* line 25, ../sass/module/_head.scss */
 .social-share {
   margin-left: 5px;
 }
@@ -142,6 +152,31 @@ a {
 /* line 33, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #f76013;
+}
+
+/* line 38, ../sass/module/_navbar.scss */
+header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+/* line 44, ../sass/module/_navbar.scss */
+.content {
+  padding: 16px;
+}
+
+/* line 48, ../sass/module/_navbar.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 111;
+}
+
+/* line 55, ../sass/module/_navbar.scss */
+.sticky + .content {
+  padding-top: 60px;
 }
 
 /* line 2, ../sass/module/_headNews.scss */
@@ -328,7 +363,7 @@ a {
 /* line 26, ../sass/module/_panel.scss */
 .sidebar {
   position: fixed;
-  z-index: 5;
+  z-index: 999;
   border-left: 1px solid #ddd;
   width: 240px;
   height: 100vh;

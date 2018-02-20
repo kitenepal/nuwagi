@@ -15,8 +15,7 @@
   <script type="text/javascript" src="js/headNews.js"></script>
 </head>
 
-<body>
-  <!-- hidden panel -->
+<body>  <!-- hidden panel -->
   <input type="checkbox" id="checkboxtoggler">
   <div class="page-wrap">
     <div class="page-content">
@@ -58,7 +57,7 @@
             </div>
             <div class="col-md-8">
               <div class="top-advertise">
-                <img src="https://www.nuwagi.com/wp-content/uploads/2017/04/Toyota-Ratopati_850x150.gif" alt="" align="right" width="80%">
+                <img src="https://www.nuwagi.com/wp-content/uploads/2017/04/Toyota-Ratopati_850x150.gif" alt="" align="right">
               </div>
             </div>
           </div>
@@ -66,7 +65,7 @@
       </header>
       <!-- End of Heading logo advertise -->
       <!-- Navigation bar -->
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse" id="navbar">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -91,6 +90,8 @@
         </div>
       </nav>
       <!-- End of Navigation bar -->
+<!-- Wrapping all in in on div for sticky navbar -->
+<div class="content">
       <section class="mainHeading">
         <div class="container">
           <div class="row">
@@ -316,6 +317,7 @@
         </div>
       </div>
       <!-- Samachar Content Ends -->
+</div>
       <!-- Contact -->
       <div class="contact">
         <div class="container contact--left">
@@ -384,6 +386,7 @@
     <!-- End of page content -->
   </div>
   <!-- end page-wrap -->
+  <script src="js/navbar.js"></script>
 </body>
 
 </html>
