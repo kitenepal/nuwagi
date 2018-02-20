@@ -54,11 +54,20 @@
     }
 }
 
-@media (max-width:750px) {
-  #custom_carousel {
-    width: 100%;
-    p{
-        display: none;
+
+.controls ul li a{
+    img{
+        width: 100px;
     }
-  }
+}
+
+@media (max-width:750px) {
+    .controls ul li a{
+        img{
+            width: 50px;
+        }
+        p{
+            display: none;
+        }
+}
 }

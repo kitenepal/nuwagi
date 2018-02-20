@@ -204,13 +204,18 @@ a {
   padding-top: 15px;
 }
 
+/* line 59, ../sass/module/_headNews.scss */
+.controls ul li a img {
+  width: 100px;
+}
+
 @media (max-width: 750px) {
-  /* line 58, ../sass/module/_headNews.scss */
-  #custom_carousel {
-    width: 100%;
+  /* line 66, ../sass/module/_headNews.scss */
+  .controls ul li a img {
+    width: 50px;
   }
-  /* line 60, ../sass/module/_headNews.scss */
-  #custom_carousel p {
+  /* line 69, ../sass/module/_headNews.scss */
+  .controls ul li a p {
     display: none;
   }
 }
