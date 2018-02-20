@@ -3,6 +3,17 @@
 }
 .top-advertise{
 	padding: 15px;
+	img{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.top-advertise{
+		img{
+			width: 100%;
+		}
+	}
 }
 
 .social-like > iframe{
